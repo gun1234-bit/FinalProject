@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(..desktop/images/school-3518726_1920.jpg);
+    background-position: top center;
+    background-size: 100% 700px;
+    height: 700px;
+    background-position: top center;
+
+    
+    
+
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color:rosybrown;
+    color: burlywood;
+    border-bottom:2px solid white;
+    
+}
+.main-menu{
+    margin-top: 50px;
+}
+.menu{
+    display: inline-flex;
+    list-style-type: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    
+}
+.menu li{
+    height: 40px;
+    line-height: 40px;
+    width: 218.5px;
+    background-color: rgba(0,0,0,7);
+}
+.menu li a {
+    color: burlywood;
+    text-decoration: none;
+    padding: 10px 25px;
+
+
+}
+.sub-menu{
+    list-style-type: none;
+    display: none;
+    margin-top: 2px;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    border-bottom: 2px solid white;
+}
